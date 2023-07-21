@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+}
+.banner{
+width:100%;
+height:100vh;
+background-image:url(image/istockphoto-950305736-612x612.jpg);
+background-size:cover;
+background-position: center;
+
+
+}
+
+.logo{
+   width: 50px;
+   cursor: pointer;
+
+
+}
+
+.content{
+ width:100%;
+ position:absolute;
+ top:50%;
+ transform: translateY(-50%);
+ text-align: center;
+ color: #fff;
+
+}
+.content h1{
+font-size: 70px;
+margin-top: 80px;
+
+}
+.content p{
+margin: 20px auto;
+font-weight: 100;
+line-height: 25px;
+
+}
+.button{
+width: 200px;
+padding: 15px 0;
+text-align: center;
+margin: 20px 10px;
+border-radius: 25px;
+font-weight: bold;
+border:2px solid #009688;
+background: transparent;
+color: red;
+cursor: pointer;
+position: relative;
+overflow: hidden;
+
+
+
+}
+.span{
+    color: #009688;
+    height: 100%;
+    width:100%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    background-color: rgb(10, 10, 10);
+    padding: 0 50px;
+    height: 100%;
+    color: white;
+    font-family: 'Sen', sans-serif;
+}
+.logo-container{
+    flex: 1;
+    
+}
+.logo{
+    font-family: 'Sen', sans-serif;
+    font-size: 20px;
+    color: red;
+    
+}
+.menu-container{
+    flex: 6;
+   
+}
+.menu-list{
+    display: flex;
+    list-style: none;
+}
+.menu-list-item{
+    margin-right: 30px;
+}
+
+.profile-container{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.profile-text-container{
+    margin: 0 20px;
+}
+.profile-icon{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
